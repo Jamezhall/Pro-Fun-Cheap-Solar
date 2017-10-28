@@ -1,0 +1,10 @@
+{
+  "name": "Pro Fun Cheap Solar",
+  "version": "1.0.0",
+  "title": "Pro's Fun and Cheap Solar",
+  "author": "Pro0ptimus",
+  "homepage": "",
+  "description": "Fun and Cheap solar panels and accumulators to save space.",
+  "factorio_version": "0.15",
+  "dependencies": ["base >= 0.15"],
+}

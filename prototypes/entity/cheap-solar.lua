@@ -3,7 +3,7 @@ data:extend(
   {
     type = "solar-panel",
     name = "cheap-solar",
-    icon = "__ProFunCheapSolar__/graphics/cheap-solar/cheap-solar.png",
+    icon = "__ProFunCheapSolar__/graphics/cheap-solar/cheap-solar-icon.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "cheap-solar"},

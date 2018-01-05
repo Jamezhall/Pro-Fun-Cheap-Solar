@@ -3,7 +3,7 @@ data:extend(
   {
     type = "accumulator",
     name = "cheap-accumulator",
-    icon = "__ProFunCheapSolar__/graphics/cheap-accumulator/cheap-accumulator.png",
+    icon = "__ProFunCheapSolar__/graphics/cheap-accumulator/cheap-accumulator-icon.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "cheap-accumulator"},
@@ -51,7 +51,7 @@ data:extend(
     },
     discharge_cooldown = 60,
     discharge_light = {intensity = 0.7, size = 7},
-	vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+	  vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     working_sound =
     {
       sound =

@@ -3,7 +3,8 @@ data:extend(
   {
     type = "accumulator",
     name = "cheap-accumulator",
-    icon = "__Pro Fun Cheap Solar__/graphics/cheap-accumulator/cheap-accumulator.png",
+    icon = "__ProFunCheapSolar__/graphics/cheap-accumulator/cheap-accumulator.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "cheap-accumulator"},
     max_health = 500,
@@ -20,7 +21,7 @@ data:extend(
     },
     picture =
     {
-      filename = "__Pro Fun Cheap Solar__/graphics/cheap-accumulator/cheap-accumulator.png",
+      filename = "__ProFunCheapSolar__/graphics/cheap-accumulator/cheap-accumulator.png",
       priority = "extra-high",
       width = 124,
       height = 103,
@@ -28,7 +29,7 @@ data:extend(
     },
     charge_animation =
     {
-      filename = "__Pro Fun Cheap Solar__/graphics/cheap-accumulator/cheap-accumulator-charge-animation.png",
+      filename = "__ProFunCheapSolar__/graphics/cheap-accumulator/cheap-accumulator-charge-animation.png",
       width = 138,
       height = 135,
       line_length = 8,
@@ -40,7 +41,7 @@ data:extend(
     charge_light = {intensity = 0.3, size = 7},
     discharge_animation =
     {
-      filename = "__Pro Fun Cheap Solar__/graphics/cheap-accumulator/cheap-accumulator-discharge-animation.png",
+      filename = "__ProFunCheapSolar__/graphics/cheap-accumulator/cheap-accumulator-discharge-animation.png",
       width = 147,
       height = 128,
       line_length = 8,

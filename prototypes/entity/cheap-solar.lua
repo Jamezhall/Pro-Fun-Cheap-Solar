@@ -3,7 +3,8 @@ data:extend(
   {
     type = "solar-panel",
     name = "cheap-solar",
-    icon = "__Pro Fun Cheap Solar__/graphics/cheap-solar/cheap-solar.png",
+    icon = "__ProFunCheapSolar__/graphics/cheap-solar/cheap-solar.png",
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "cheap-solar"},
     max_health = 500,
@@ -20,13 +21,13 @@ data:extend(
       layers =
       {
         {
-          filename = "__Pro Fun Cheap Solar__/graphics/cheap-solar/cheap-solar.png",
+          filename = "__ProFunCheapSolar__/graphics/cheap-solar/cheap-solar.png",
           priority = "high",
           width = 116,
           height = 112,
           shift = util.by_pixel(-3, 3),
           hr_version = {
-            filename = "__Pro Fun Cheap Solar__/graphics/cheap-solar/hr-cheap-solar.png",
+            filename = "__ProFunCheapSolar__/graphics/cheap-solar/hr-cheap-solar.png",
             priority = "high",
             width = 230,
             height = 224,
@@ -35,14 +36,14 @@ data:extend(
           }
         },
         {
-          filename = "__Pro Fun Cheap Solar__/graphics/cheap-solar/cheap-solar-shadow.png",
+          filename = "__ProFunCheapSolar__/graphics/cheap-solar/cheap-solar-shadow.png",
           priority = "high",
           width = 112,
           height = 90,
           shift = util.by_pixel(10, 6),
           draw_as_shadow = true,
           hr_version = {
-            filename = "__Pro Fun Cheap Solar__/graphics/cheap-solar/hr-cheap-solar-shadow.png",
+            filename = "__ProFunCheapSolar__/graphics/cheap-solar/hr-cheap-solar-shadow.png",
             priority = "high",
             width = 220,
             height = 180,
@@ -58,13 +59,13 @@ data:extend(
       layers =
       {
         {
-          filename = "__Pro Fun Cheap Solar__/graphics/cheap-solar/cheap-solar-shadow-overlay.png",
+          filename = "__ProFunCheapSolar__/graphics/cheap-solar/cheap-solar-shadow-overlay.png",
           priority = "high",
           width = 108,
           height = 90,
           shift = util.by_pixel(11, 6),
           hr_version = {
-            filename = "__Pro Fun Cheap Solar__/graphics/cheap-solar/hr-cheap-solar-shadow-overlay.png",
+            filename = "__ProFunCheapSolar__/graphics/cheap-solar/hr-cheap-solar-shadow-overlay.png",
             priority = "high",
             width = 214,
             height = 180,
